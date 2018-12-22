@@ -38,16 +38,12 @@ public class User implements Serializable{
     @NotNull
     private String lastname;
 
-    //@NotNull
     private String department;
 
-    //@NotNull
     private String faculty;
 
-    //@NotNull
     private int year;
     
-    //@NotNull
     private String image;
 
     @Temporal(TemporalType.TIMESTAMP)
